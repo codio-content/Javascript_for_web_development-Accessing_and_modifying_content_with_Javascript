@@ -25,7 +25,6 @@ my_div.innerHTML += my_p
 When we say we "append" it, we really mean it, you can see that we used the operator `+=` on the `innerHTML` property.
 
 If you don't understand the meaning of the `my_div.innerHTML += my_p`, let's just say it means exactly the same as this : `my_div.innerHTML = my_div.innerHTML + p`
-```
 
 So whatever was already in the `#container` stays in there and we add our at the end `p`.
 
@@ -46,6 +45,7 @@ You can try running multiple time the first code above then running multiple tim
 
 If you are feeling adventurous you can use the object oriented approach to create dom elements for the same result :
 
+```
 var p = document.createElement("p")
 p.appendChild(document.createTextNode("more content")
 document.getElementById("container").appendChild(p)
@@ -80,10 +80,11 @@ c.parentNode.removeChild(c)
 ## Altering properties
 
 ```
-x.setAttribute('align','right')
-x.getAttribute('align')
+var x = document.getElementById("container")
+var old_align = x.getAttribute("align")
+x.setAttribute("align","right")
 ```
-
+{Run this code}(node .guides/tests/run-this.js run5)
 
 
 ## Altering CSS
@@ -94,13 +95,12 @@ x.getAttribute('align')
 
 ```
 var x = document.getElementById("container");
-x.style.color
-x.style.backgroundColor
-x.style.fontWeight
-x.style.border
-x.style.border
+x.style.color = "red"
+x.style.backgroundColor = "gray"
+x.style.fontWeight = "bold"
+x.style.border = 2px solid orange"
 ```
-
+{Run this code}(node .guides/tests/run-this.js run6)
 
 ### getComputedStyle
 

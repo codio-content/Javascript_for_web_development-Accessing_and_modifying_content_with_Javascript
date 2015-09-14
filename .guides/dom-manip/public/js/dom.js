@@ -1,40 +1,50 @@
-
-/*
-  function escapeHtml(text) {
-  var map = {
-    '&': '&amp;',
-    '<': '&lt;',
-    '>': '&gt;',
-    '"': '&quot;',
-    "'": '&#039;'
-  };
-
-  return text.replace(/[&<>"']/g, function(m) { return map[m]; });
-}
-
-function appendsToCommand(command_text) {
-  var content = "<div><pre><code>"+ command_text +"</code></pre></div>";
-
-  $("#commands").append(content)
-
-  var objDiv = document.getElementById("commands");
-  objDiv.scrollTop = objDiv.scrollHeight;
-}
-
-function runCommandReal(command_text) {
-   try {
-     eval(command_text)  
-   } catch(e) {
-     console.log("Couldnt run command")
-     console.log(e)
-   }
-}
-
-*/
-
 function runCommand(command_text) {
+  
+  var code_to_run = "";
+
+  switch(command_text) {
+    case "run1":
+      var my_p = "<p> Hello </p>" 
+      var my_div=document.getElementById("container") 
+      my_div.innerHTML +=my_p;
+      
+      break;
+    case "run11":
+      var my_p = "<p> Hello </p>" 
+      var my_div=document.getElementById("container") 
+      my_div.innerHTML =my_p;
+      
+      break
+    case "run2":
+      var p = document.createElement("p")
+      p.appendChild(document.createTextNode("more content"))
+      document.getElementById("container").appendChild(p)
+      
+      break
+    case "run3":
+      document.getElementById("container").innerHTML = null
+      
+      break
+    case "run4":
+      var c = document.getElementById("container")
+      c.parentNode.removeChild(c)
+      
+      break
+    case "run5":
+      var x = document.getElementById("container")
+      var old_align = x.getAttribute("align")
+      x.setAttribute("align","right")
+      
+      break
+    case "run6":
+      var x = document.getElementById("container")
+      x.style.color = "red"
+      x.style.backgroundColor = "gray"
+      x.style.fontWeight = "bold"
+      x.style.border = "2px solid orange"
+      
+      break
+  }
 
   runCommandReal(command_text)
-  //appendsToCommand(escapeHtml(command_text))
-
 }
