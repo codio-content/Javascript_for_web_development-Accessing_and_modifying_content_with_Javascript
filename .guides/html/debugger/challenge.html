@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <title>Debugger example</title>
+</head>
+<body>
+  
+  <script src="ccode.js"></script>
+  <script>
+    
+    
+    
+    var my_function_to_debug = function(){
+      var myobj = {};
+      var a = 10
+      var b = 20
+      var c = a + b
+      
+      my_init(myobj)
+      debugger
+    }
+    
+    
+    
+    my_function_to_debug()
+    
+    
+  </script>
+</body>
+</html>

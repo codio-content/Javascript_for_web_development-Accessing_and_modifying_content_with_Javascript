@@ -1,0 +1,371 @@
+{
+ "sections": [
+  {
+   "id": "6c05fb9e-6f9b-9bd3-c55e-ad42b4a8bfda",
+   "title": "Introduction",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Introduction-6c05.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "f8badccb-a5a7-1480-fc93-becd4f92513a",
+   "title": "Script tags",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "script-tags/index.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: script-tags/index.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell-tree",
+   "path": [
+    "script-tags"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Script-tags-f8ba.md",
+   "chapter": true,
+   "reset": [
+    "script-tags"
+   ],
+   "teacherOnly": false
+  },
+  {
+   "id": "e20f6506-4ac5-1a71-5720-3706608cd34b",
+   "title": "Your first script",
+   "files": [],
+   "layout": "",
+   "path": [
+    "script-tags"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Your-first-script-e20f.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "60a31bc5-e73c-cb6b-e997-e0d8ed134e05",
+   "title": "Writing to the console",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#preview: console-log/example.html",
+     "panel": 1,
+     "action": "open"
+    },
+    {
+     "path": "console-log/example.html",
+     "panel": 0,
+     "ref": "console.log",
+     "lineCount": null,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "console-log"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Writing-to-the-console-60a3.md",
+   "chapter": true,
+   "reset": [
+    "console-log"
+   ],
+   "teacherOnly": false
+  },
+  {
+   "id": "cc84338a-1990-6a0e-6d0c-405586ef47",
+   "title": "Debugging JS code",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "debugger/example.html",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [
+    "debugger"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Debugging-JS-code-cc84.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "e20d742-8e3e-4ddc-c3aa-a4776af666f3",
+   "title": "Debugger challenge",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Debugger-challenge-e20d.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "ee3e90ab-2d05-ddf3-dccc-e4b78d603e2c",
+   "title": "Clock example",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "clock/index-console.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: clock/index-console.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell-tree",
+   "path": [
+    "clock"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Clock-example-ee3e.md",
+   "chapter": true,
+   "reset": [
+    "clock"
+   ],
+   "teacherOnly": false
+  },
+  {
+   "id": "dc3b907-799-1c3a-ff03-6d0dafbe95a4",
+   "title": "Clock example (2)",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "clock/index.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: clock/index.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "clock"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Clock-example--2--dc3b.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "150172b9-e745-5d35-ca66-f578813ec02c",
+   "title": "Document ready",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "document-ready/example1.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: document-ready/example1.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "document-ready"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Document-ready-1501.md",
+   "chapter": true,
+   "reset": [
+    "document-ready"
+   ],
+   "teacherOnly": false
+  },
+  {
+   "id": "d967caca-9a9b-864-1d81-f5bd4d532f45",
+   "title": "Introduction to the DOM",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "introduction-dom/index.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: introduction-dom/index.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "introduction-dom"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Introduction-to-the-DOM-d967.md",
+   "chapter": true,
+   "reset": [
+    "introduction-dom"
+   ],
+   "teacherOnly": false
+  },
+  {
+   "id": "80f164b7-741b-614f-89e3-6c4f49e1627a",
+   "title": "getElementById",
+   "files": [],
+   "layout": "",
+   "path": [
+    "introduction-dom"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/getElementById-80f1.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "d90d1028-1ce7-99b4-4b4b-683b3013238",
+   "title": "querySelector",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "introduction-dom/queryselector.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: introduction-dom/queryselector.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "introduction-dom"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/querySelector-d90d.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "f90588c6-2d96-c015-5390-7cb8fe0dd9e5",
+   "title": "DOM/CSS manipulation in JS",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": ".guides/dom-manip/index.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: .guides/dom-manip/index.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "dom-manipulation"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/DOM-CSS-manipulation-in-JS-f905.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "709a8948-cbea-c050-ba79-6ae6621c597",
+   "title": "Introduction to jQuery",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Introduction-to-jQuery-709a.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "325ba7b9-b558-29f4-f0bc-e452c9761384",
+   "title": "jQuery DOM and CSS manipulations",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/jQuery-DOM-and-CSS-manipulations-325b.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "3d5f8d9a-50e-26f9-d662-f4d46612b17",
+   "title": "That's all folks",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/That-s-all-folks-3d5f.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": ""
+}

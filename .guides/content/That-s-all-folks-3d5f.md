@@ -1,0 +1,1 @@
+We have seen how to load a script tag and how to use a timer, how to manipulate the DOM and how to use jQuery to manipulate our documents.

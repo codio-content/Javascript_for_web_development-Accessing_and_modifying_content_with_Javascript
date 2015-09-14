@@ -1,0 +1,30 @@
+#commands {
+  box-sizing:border-box;
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  height:4em;
+  background-color:black;
+  color:#ccc;
+  overflow-x:none;
+  overflow-y:auto;
+  word-wrap: break-word;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+#commands:before {
+  content:"Last commands";
+  position:fixed;
+  bottom:4.75em;
+  color:#fff;
+  background-color:rgba(144,144,144,0.7);
+  padding:2px;
+  left:0;
+  right:0;
+  padding-right:18px;
+  font-size:10px;
+  text-align:right;
+}
