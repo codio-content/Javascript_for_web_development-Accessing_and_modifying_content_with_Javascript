@@ -4,7 +4,7 @@ var fs = require('fs');
 var _ = require('underscore')
 
 var base_path = "/home/codio/workspace/"
-var file_path = base_path + "clock/index.html"
+var file_path = base_path + "clock/index-console.html"
 
 var html_content = fs.readFileSync(file_path).toString('utf8');
 var $ = cheerio.load(html_content);
@@ -22,20 +22,11 @@ var squerySearch = grasp.search('squery');
 
 try {
 
-  // var results = equerySearch('setInterval( __ , __ )', script_content);
-  var results = squerySearch(":root > ExpressionStatement > CallExpression[callee.name=setInterval]",script_content) //:root > call
-
+  var results = equerySearch('setInterval( __ , __ )', script_content);
+  
 
   if (results.length <= 0) {
-
-
-    var r2 = equerySearch('setInterval( __ , __ )', script_content);
-
-    if (r2.length <= 0) {
-      errors.push("We didn't find any call to setInterval.")
-    } else {
-      errors.push("The call to setInterval is not at the correct position.")
-    }
+    errors.push("We didn't find any call to setInterval.")
 
   } else if (results.length == 1) {
 
@@ -46,19 +37,11 @@ try {
     var arg0 = thecall.arguments[0];
     var arg1 = thecall.arguments[1];
 
-    if (arg0.type != "Identifier") {
-      errors.push("The first argument of the setInterval call doesn't seem to be correct.")
-    } else {
-      if (arg0.name != "set_time") {
-        errors.push("The first argument of the setInterval call should be 'set_time'.")
-      } 
-    }
-
     if (arg1.type != "Literal") {
       errors.push("The second argument of the setInterval call doesn't seem to be correct.")
     } else {
-      if (arg1.value != 1000 ) {
-        errors.push("The second argument of the setInterval call should be 1000.")
+      if (arg1.value != 100 ) {
+        errors.push("The second argument of the setInterval call should be 100.")
       } 
     }
 

@@ -2,7 +2,7 @@ var fs = require('fs');
 var phantom = require('phantom');
 
 var box_domain = process.env.CODIO_BOX_DOMAIN;
-var fullurl = "http://"+ box_domain + "/introduction-dom/index.html";
+var fullurl = "http://"+ box_domain + "/final-challenge/challenge.html";
 var errors = [];
 
 //console.log(fullurl);
@@ -15,14 +15,29 @@ phantom.create(function (ph) {
           page.evaluate(function () { 
         
             var errors =  [];
-            
-            var the_nav = document.getElementById("nav");
-            
-            if (the_nav.style.color != "red"){
-              errors.push("#nav should have color : red");
+
+            if ($(".username").text().length < 1) {
+              errors.push("The username is not set in .username")
             }
 
-          
+            if ($("#container").text().indexOf("Loading ...")!= -1) {
+              errors.push("You didn't empty the #container before the loop")
+            }
+
+            if ($("#container > div").length != 10) {
+              errors.push("There should be 10 news div in the #container")
+            }
+
+            var cnt = 0;
+            $("#containter > div").each(function(){
+              cnt++
+
+              if ( $(this).find(".author").text().length < 1 || $(this).find(".title").text().length < 1 || $(this).find("a").text().length < 1) {
+                errors.push("Something is wrong with the news #"+cnt)
+              }
+
+            })
+
             return errors;
 
 

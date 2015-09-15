@@ -2,7 +2,7 @@ var fs = require('fs');
 var phantom = require('phantom');
 
 var box_domain = process.env.CODIO_BOX_DOMAIN;
-var fullurl = "http://"+ box_domain + "/introduction-dom/index.html";
+var fullurl = "http://"+ box_domain + "/introduction-dom/queryselector.html";
 var errors = [];
 
 //console.log(fullurl);
@@ -16,12 +16,11 @@ phantom.create(function (ph) {
         
             var errors =  [];
             
-            var the_nav = document.getElementById("nav");
+            var my_li = document.querySelector("ul > li");
             
-            if (the_nav.style.color != "red"){
-              errors.push("#nav should have color : red");
+            if (my_li.style.color != "red"){
+              errors.push("First li should have color : red");
             }
-
           
             return errors;
 
