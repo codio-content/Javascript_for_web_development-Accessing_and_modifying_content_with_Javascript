@@ -1,12 +1,3 @@
-In this challenge we will develop a news website, totally in JS.
-
-{Check It!|assessment}(test-964909706)
-
-|||guidance
-
-Solution :
-
-```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -32,25 +23,19 @@ Solution :
     $(document).ready(function(){
       
       // your code here to set the .username
-      $(".username").text("Your name here");
+      
     
       getNews(function(news) {
         
         // your code here to empty the #container
-        $("#container").empty();
+        
         
         var news_count = news.length;
         for (var i=0;i<news_count;i++) {
           var news_item = news[i];
           
-          //your code here to create entries in #container for each news item .
-          var news_div ='<div class="news" id="'+news_item.id+'">'
-          +'<div class="author"> '+news_item.author+' </div>'
-          +'<div class="title"> '+news_item.title+' </div>'
-          +'<a href="'+news_item.link+'"> '+news_item.link+' </a> </div>'
-      
+          //your code here to create a div for each news_item
           //your code here to append the div to the #container
-          $("#container").append(news_div);
           
         }
         
@@ -61,6 +46,3 @@ Solution :
   
 </body>
 </html>
-```
-
-|||
