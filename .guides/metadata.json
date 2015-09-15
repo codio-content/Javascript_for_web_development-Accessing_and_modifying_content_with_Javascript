@@ -36,7 +36,7 @@
      "action": "open"
     }
    ],
-   "layout": "3-cell-tree",
+   "layout": "3-cell",
    "path": [
     "script-tags"
    ],
@@ -109,7 +109,7 @@
      "action": "open"
     }
    ],
-   "layout": "2-panels-tree",
+   "layout": "2-panels",
    "path": [
     "debugger"
    ],
@@ -155,7 +155,7 @@
      "action": "open"
     }
    ],
-   "layout": "3-cell-tree",
+   "layout": "3-cell",
    "path": [
     "clock"
    ],
@@ -326,6 +326,170 @@
    ],
    "type": "markdown",
    "content-file": ".guides/content/DOM-CSS-manipulation-in-JS-f905.md",
+   "chapter": true,
+   "reset": [
+    "dom-manipulation"
+   ],
+   "teacherOnly": false
+  },
+  {
+   "id": "11e580e6-4bc0-2ff6-f48b-22eb86417f89",
+   "title": "Creating elements",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": ".guides/dom-manip/index-adding.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: .guides/dom-manip/index-adding.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Creating-elements-11e5.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "2de7fd07-afa2-938-7662-aca56d77c2a1",
+   "title": "Removing elements",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": ".guides/dom-manip/index-removing.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: .guides/dom-manip/index-removing.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Removing-elements-2de7.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "ade3ede5-63c-573b-9f11-174d3cd981a7",
+   "title": "Altering properties",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": ".guides/dom-manip/index-altering.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: .guides/dom-manip/index-altering.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Altering-properties-ade3.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "9be742ef-4796-d8de-f715-24afe12cd2ff",
+   "title": "Altering styles",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": ".guides/dom-manip/index-styles.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: .guides/dom-manip/index-styles.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Altering-styles-9be7.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "7974f522-c205-ff96-bd4-5369905f19c4",
+   "title": "Adding CSS classes",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": ".guides/dom-manip/index-add-class.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: .guides/dom-manip/index-add-class.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Adding-CSS-classes-7974.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "2697fc48-218d-3dfe-205f-f3e0132727da",
+   "title": "Removing CSS classes from elements",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": ".guides/dom-manip/index-remove-class.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: .guides/dom-manip/index-remove-class.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Removing-CSS-classes-from-elements-2697.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
@@ -333,10 +497,61 @@
   {
    "id": "709a8948-cbea-c050-ba79-6ae6621c597",
    "title": "Introduction to jQuery",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Introduction-to-jQuery-709a.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "6077186d-6760-b1f8-6500-96f63d7dc33e",
+   "title": "Loading jQuery",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Loading-jQuery-6077.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "20bcb6dd-9f7-471-d14c-b7e07bd45fae",
+   "title": "First steps",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/First-steps-20bc.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "23017d1d-ba17-624d-7e48-dfbc698e928",
+   "title": "Chaining",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Chaining-2301.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "d64517eb-c3ed-46a-1773-86a1e5a1d637",
+   "title": "Silent errors",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Silent-errors-d645.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
@@ -344,11 +559,208 @@
   {
    "id": "325ba7b9-b558-29f4-f0bc-e452c9761384",
    "title": "jQuery DOM and CSS manipulations",
-   "files": [],
-   "path": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": ".guides/dom-manip/index.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: .guides/dom-manip/index.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [
+    "dom-manipulation"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/jQuery-DOM-and-CSS-manipulations-325b.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "2287cd71-360d-1b-7c79-92053e644f24",
+   "title": "Creating elements",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": ".guides/dom-manip/index-adding.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: .guides/dom-manip/index-adding.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Creating-elements-2287.md",
    "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "8d33d74c-7180-3b-5a94-63a8db1ba304",
+   "title": "Removing elements",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": ".guides/dom-manip/index-removing.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: .guides/dom-manip/index-removing.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Removing-elements-8d33.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "6718ec55-e6e2-4220-6945-2bd7bd5877df",
+   "title": "Altering properties",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": ".guides/dom-manip/index-altering.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: .guides/dom-manip/index-altering.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Altering-properties-6718.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "117f3ff2-aacc-3d3f-ba0f-1d4b4b6a6b9b",
+   "title": "Altering styles",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": ".guides/dom-manip/index-styles.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: .guides/dom-manip/index-styles.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Altering-styles-117f.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "b3096789-241f-1bce-5074-517e8e465c7f",
+   "title": "Adding CSS classes",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": ".guides/dom-manip/index-add-class.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: .guides/dom-manip/index-add-class.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Adding-CSS-classes-b309.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "a9ba6f3-9d1c-2bf1-f2c7-c798961ad215",
+   "title": "Removing CSS classes",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": ".guides/dom-manip/index-remove-class.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: .guides/dom-manip/index-remove-class.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Removing-CSS-classes-a9ba.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "2a06e06e-8ed3-4e68-47fb-a56cb0356248",
+   "title": "Final Challenge",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Final-Challenge-2a06.md",
+   "chapter": true,
    "reset": [],
    "teacherOnly": false
   },

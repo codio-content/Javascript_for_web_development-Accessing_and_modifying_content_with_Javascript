@@ -28,3 +28,16 @@
   font-size:10px;
   text-align:right;
 }
+
+body {
+  background-color:#111;
+  color:#fff;
+}
+
+.cool {
+  text-shadow: 0 6px 4px #33F, -3px -5px 4px #F00, 3px -5px 4px #0F0;
+}
+
+a {
+  color:gray;
+}

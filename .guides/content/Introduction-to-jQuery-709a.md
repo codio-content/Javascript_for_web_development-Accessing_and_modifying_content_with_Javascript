@@ -1,36 +1,7 @@
-## loading jquery
+## What is jQuery ?
 
-from CDN
+jQuery is a widely used javascript library, that was designed to 1) Ease our lives as web developers when manipulating HTML pages with JS 2) Be cross-browser so we use only one code and it will work on any browser.
 
-from local
+jQuery dates from a time where there weren't many easy ways to manipulate the DOM with JS and also at that time all the browsers had their own version of DOM manipulation using JS so it was very hard and long to write JS code that would work on all of them.
 
-Hybrid
-
-## Jquery $ sign
-
-
-
-## jquery document ready
-
-```
-$(document).ready(function(){
-
-  // You code goes here
-
-})
-```
-
-
-## First steps
-jQuery()
-
-$.find()
-
-$.parents() .prev() .next() .children()
-
-.each()
-
-## Chaining
-
-## Silent errors
-
+Nowadays things have standardized a lot and we have more common functions to manipulate the DOM as we have just seen, but anyway, jQuery offers much more and has a very concise syntax which allows us to write short and powerful code.
