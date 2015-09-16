@@ -1,5 +1,4 @@
-var nodes = require('nodes');
-var parse = require('esprima').parse;
+var grasp = require('grasp');
 var cheerio = require('cheerio')
 var fs = require('fs');
 var _ = require('underscore')
@@ -17,7 +16,6 @@ $("script").each(function() {
 });
 
 
-var grasp = require('grasp');
 var equerySearch = grasp.search('equery');
 var squerySearch = grasp.search('squery');
 
