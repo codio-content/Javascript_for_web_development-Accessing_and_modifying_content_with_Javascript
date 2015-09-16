@@ -63,6 +63,17 @@
    "teacherOnly": false
   },
   {
+   "id": "8bc38bad-78c9-2cb-d675-250ae14ca0d8",
+   "title": "External script file",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/External-script-file-8bc3.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
    "id": "60a31bc5-e73c-cb6b-e997-e0d8ed134e05",
    "title": "Writing to the console",
    "files": [

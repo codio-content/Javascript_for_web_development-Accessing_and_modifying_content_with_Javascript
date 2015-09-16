@@ -1,5 +1,11 @@
 @import url("/.guides/keys.css");
-@import url("/.guides/font-awesome.min.css");
+
+.arrow_down {
+  width: 20px;
+  display:inline;
+  position: relative;
+  top: 5px;
+}
 
 .codio-assessment {
   display: flex;

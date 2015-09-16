@@ -5,7 +5,7 @@ var x = document.getElementById("container");
 x.classList.add("cool")
 ```
 
-<p style="text-align:center;"> <i class="fa fa-arrow-circle-down"></i> Becomes with jQuery <i class="fa fa-arrow-circle-down"></i> </p>
+<p style="text-align:center;"> <img src=".guides/img/arrow_down.png" class="arrow_down" /> Becomes with jQuery <img src=".guides/img/arrow_down.png" class="arrow_down" /> </p>
 
 ```
 $('#container').addClass('cool')

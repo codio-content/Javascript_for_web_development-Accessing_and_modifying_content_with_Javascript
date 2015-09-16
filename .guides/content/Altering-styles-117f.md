@@ -7,7 +7,7 @@ x.style.backgroundColor = 'blue'
 x.style.fontWeight = 'bold'
 x.style.border = '2px solid orange'
 ```
-<p style="text-align:center;"> <i class="fa fa-arrow-circle-down"></i> No camelcase necessary with jQuery <i class="fa fa-arrow-circle-down"></i> </p>
+<p style="text-align:center;"> <img src=".guides/img/arrow_down.png" class="arrow_down" /> No camelcase necessary with jQuery <img src=".guides/img/arrow_down.png" class="arrow_down" /> </p>
 
 ```
 var x = $("#container");
