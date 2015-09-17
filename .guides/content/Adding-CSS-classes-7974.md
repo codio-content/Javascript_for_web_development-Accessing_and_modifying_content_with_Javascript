@@ -11,10 +11,10 @@ Let's say we have this CSS class ready:
 Then we can add it to our `#container` like this:
 
 ```
-var x = document.getElementById("container");
+var x = document.getElementById("container")
 x.classList.add("cool")
 ```
 
 {Run this code}(node .guides/tests/run-this.js run7)
 
-The `classList` property contains as its name implies, the list of all the classes of the element. Here we use the `add` function on it to add our `cool` class.
+The `classList` property contains (as its name implies) the list of all the classes of the element. Here we use the `add` function on it to add our `cool` class.

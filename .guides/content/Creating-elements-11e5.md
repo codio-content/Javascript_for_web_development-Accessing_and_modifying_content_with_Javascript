@@ -40,7 +40,7 @@ You can try running multiple time the first code above then running multiple tim
 
 ### Using objects
 
-If you are feeling adventurous you can use the object oriented approach to create dom elements for the same result :
+If you are feeling adventurous you can use the object oriented approach to create DOM elements with the same result as the code above :
 
 ```
 var p = document.createElement("p")
