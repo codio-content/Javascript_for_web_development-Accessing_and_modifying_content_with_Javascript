@@ -1,3 +1,3 @@
-In this unit, we have seen a lot. We have seen how to create and  embed our scripts in HTML pages. We have then seen how to use callbacks and setInterval to create timers. Then we learned how to run our script only after the page has finished loading. After that we have seen how to manipulate the DOM and CSS using pure javascript. Finally we saw a brief introduction to the jQuery library and how to manipulate the DOM and CSS with it.
+In this unit, we have seen how to manipulate the DOM and CSS using pure javascript. Then we saw a brief introduction to the jQuery library and how to manipulate the DOM and CSS with it.
 
 In the next unit we will have an introduction to HTML forms, and how to handle them with pure JS and with jQuery.
