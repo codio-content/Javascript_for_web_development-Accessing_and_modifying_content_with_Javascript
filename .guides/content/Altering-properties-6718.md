@@ -13,6 +13,8 @@ var the_align =  $("#container").attr('align')
 ```
 {Run this code}(node .guides/tests/run-this.js run13)
 
+Here we use the `.attr()` function from jQuery. When used with one parameter it will return the value of that attribute. When use with two parameters it will set the value of that attribute to the value of the second parameter.
+
 
 And if we want to correct our link example:
 

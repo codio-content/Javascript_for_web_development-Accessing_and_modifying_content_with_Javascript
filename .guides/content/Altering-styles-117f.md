@@ -26,3 +26,6 @@ $('#container').css({
 })
 ```
 {Run this code}(node .guides/tests/run-this.js run15)
+
+
+Here we use the jQuery `.css()` function, You can either give it two strings as parameters and it will then set the css property given in the first parameter to the value given in the second one. Or you can pass an object as parameter as in the second example.

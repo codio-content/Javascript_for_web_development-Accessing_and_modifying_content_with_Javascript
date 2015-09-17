@@ -11,6 +11,8 @@ $("#container").html("<p> Hello </p>")
 ```
 {Run this code}(node .guides/tests/run-this.js run9)
 
+Here we use the `.html()` function of jQuery that sets the `innerHTML` of the element.
+
 
 
 ### Using objects
@@ -27,3 +29,7 @@ document.getElementById("container").appendChild(p);
 $("#container").append( $('<p>').text('Hello') )
 ```
 {Run this code}(node .guides/tests/run-this.js run10)
+
+Here we use the `.append` function that appends at the end of the targeted element, it's the same as using "+=" on `innerHtml` as we saw before.
+
+We also use the `.text()` which sets the text of an element, it's similar to `.html()` but it only allows us to set text, not HTML. 

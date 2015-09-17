@@ -1,14 +1,11 @@
 ## jQuery $ sign
 
-Everytime you use jQuery you will be using the `$` sign. This sign is provided by jQuery to write short code. It is an alias of `jQuery` in this case, so everytime you see the `$` sign you could be writing `jQuery` in the code.
-
+Everytime you use jQuery you will be using the `$` sign. This sign is provided by jQuery to write short code. It is an alias of `jQuery` in this case, so everytime you see the `$` sign it is the same as writing `jQuery` in the code.
 
 
 ## jQuery document ready
 
-As we saw in section 6, when you use JS in a page, you have to wait for the document to be fully loaded before running your JS code.
-
-jQuery provides a cross-browser way of doing it :
+As we saw in the previous unit, when you use JS in a page, you have to wait for the document to be fully loaded before running your JS code. jQuery provides a cross-browser way of doing it :
 ```
 $(document).ready(function(){
 
@@ -17,7 +14,7 @@ $(document).ready(function(){
 })
 ```
 
-Basically it means :  When the document is ready then run my function.
+Basically it means :  When the document is ready then run my code.
 
 ## Common syntax
 In jQuery the logic or syntax is often the same, you write :
