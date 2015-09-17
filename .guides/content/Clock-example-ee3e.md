@@ -20,29 +20,13 @@ function my_function() {
   console.log("hi!");
 }
 
-setInterval( my_function , 1000);
+setInterval( my_function , 3000);
 ```
 
-The `setInterval` will call `my_function` every 1000 milliseconds.
+The `setInterval` will call `my_function` every 3000 milliseconds (that's 3 seconds).
 
 The function `my_function` does only one thing and that is to write 'hi!' to the console.
  
 You can see a full working example in the left panes.
 
-As you can see in the bottom left pane, it's printing "hi!" to the console every second.
-
-{Check It!|assessment}(test-3056679797)
-
-|||guidance
-
-Solution :
-
-```javascript
-setInterval( my_function , 100);
-```
-
-|||
-
-Now that we know how to use a timer in JS, let's do the visual part of our clock
-
-
+As you can see in the bottom left pane, it's printing "hi!" to the console every three seconds.

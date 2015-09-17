@@ -7,9 +7,11 @@ To load an external JS file, the syntax is the same with the addition of a `src`
 Where `<url>` is the effective url of your JS file, for example: 
 
 ```
-<script src="http://superlib.com/awesome-js-helper.js" ></script> <!-- a JS file loaded from another server -->
+<!-- a JS file loaded from another server -->
+<script src="http://superlib.com/awesome-js-helper.js" ></script> 
 
-<script src="my-super-script.js" ></script> <!-- a JS file you coded -->
+<!-- a JS file you coded -->
+<script src="my-super-script.js" ></script>
 ```
 
 In the first case we load a JS file from another server we don't own, that could be a library for example.

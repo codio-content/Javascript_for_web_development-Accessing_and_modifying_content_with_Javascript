@@ -24,6 +24,27 @@
     {
      "path": "#tabs",
      "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [
+    "script-tags"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Script-tags-f8ba.md",
+   "chapter": true,
+   "reset": [
+    "script-tags"
+   ],
+   "teacherOnly": false
+  },
+  {
+   "id": "e20f6506-4ac5-1a71-5720-3706608cd34b",
+   "title": "Your first script",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
     },
     {
      "path": "script-tags/index.html",
@@ -41,22 +62,6 @@
     "script-tags"
    ],
    "type": "markdown",
-   "content-file": ".guides/content/Script-tags-f8ba.md",
-   "chapter": true,
-   "reset": [
-    "script-tags"
-   ],
-   "teacherOnly": false
-  },
-  {
-   "id": "e20f6506-4ac5-1a71-5720-3706608cd34b",
-   "title": "Your first script",
-   "files": [],
-   "layout": "",
-   "path": [
-    "script-tags"
-   ],
-   "type": "markdown",
    "content-file": ".guides/content/Your-first-script-e20f.md",
    "chapter": false,
    "reset": [],
@@ -65,7 +70,13 @@
   {
    "id": "8bc38bad-78c9-2cb-d675-250ae14ca0d8",
    "title": "External script file",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/External-script-file-8bc3.md",
@@ -94,7 +105,7 @@
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "3-cell",
    "path": [
     "console-log"
    ],
@@ -107,8 +118,60 @@
    "teacherOnly": false
   },
   {
+   "id": "3e4f80af-3656-5b-180d-e3afb5cff795",
+   "title": "Keyboard shortcuts",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Keyboard-shortcuts-3e4f.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
    "id": "cc84338a-1990-6a0e-6d0c-405586ef47",
    "title": "Debugging JS code",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [
+    "debugger"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Debugging-JS-code-cc84.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "b41bdfdc-8a14-a2e-19c1-d9bbb76f6798",
+   "title": "Adding breakpoints",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Adding-breakpoints-b41b.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "2e0b222-d766-a2d5-70c8-52bc13cf33b5",
+   "title": "Inside the debugger",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Inside-the-debugger-2e0b.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "ea248014-c102-9e18-b369-f89cac6368ef",
+   "title": "Open the debugger",
    "files": [
     {
      "path": "#tabs",
@@ -125,8 +188,8 @@
     "debugger"
    ],
    "type": "markdown",
-   "content-file": ".guides/content/Debugging-JS-code-cc84.md",
-   "chapter": true,
+   "content-file": ".guides/content/Open-the-debugger-ea24.md",
+   "chapter": false,
    "reset": [],
    "teacherOnly": false
   },
@@ -179,8 +242,19 @@
    "teacherOnly": false
   },
   {
+   "id": "f9a7b42-270b-cbd3-5167-5c55ebc061",
+   "title": "Change the clock",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Change-the-clock-f9a7.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
    "id": "dc3b907-799-1c3a-ff03-6d0dafbe95a4",
-   "title": "Clock example (2)",
+   "title": "Finishing the clock",
    "files": [
     {
      "path": "#tabs",
@@ -202,7 +276,29 @@
     "clock"
    ],
    "type": "markdown",
-   "content-file": ".guides/content/Clock-example--2--dc3b.md",
+   "content-file": ".guides/content/Almost-done-dc3b.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "6f566b9e-9085-94c1-d8b0-648cb7c5f04f",
+   "title": "Analyse the code",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Analyse-the-code-6f56.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "5eacbd41-31f9-c30f-f831-40b71cea7a5a",
+   "title": "Refresh our clock",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Refresh-our-clock-5eac.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
