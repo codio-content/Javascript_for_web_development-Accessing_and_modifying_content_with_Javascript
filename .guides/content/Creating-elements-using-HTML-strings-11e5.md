@@ -1,5 +1,3 @@
-### Using HTML strings
-
 To create an element we can simply use a string of the HTML element we want. 
 
 If we want to create a `p` element with the text `Hello` inside, we can use a string of the HTML code of it. Then we append it to the `innerHTML` property of the DOM element that should contain it. In this case we want to append it to the `div#container` (when we write this we mean the `div` which has an ID of `container`).
@@ -38,17 +36,3 @@ Now, it's just an `=` sign so we assign to it and replace everything instead of 
 
 You can try running multiple time the first code above then running multiple time this one and see the difference of behaviour in the bottom left hand pane.
 
-### Using objects
-
-If you are feeling adventurous you can use the object oriented approach to create DOM elements with the same result as the code above :
-
-```
-var p = document.createElement("p")
-p.appendChild(document.createTextNode("more content")
-document.getElementById("container").appendChild(p)
-```
-{Run this code}(node .guides/tests/run-this.js run2)
-
-1. We create a `p` element. 
-1. We create a text node with "more content" and append it as a child to the `p`.
-1. Finally we get the `#container` and append our `p` to it.

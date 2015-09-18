@@ -49,6 +49,17 @@
    "teacherOnly": false
   },
   {
+   "id": "6196197d-3c8f-2675-94ef-6346f50df4e5",
+   "title": "A DOM example",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/A-DOM-example-6196.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
    "id": "80f164b7-741b-614f-89e3-6c4f49e1627a",
    "title": "getElementById",
    "files": [],
@@ -58,6 +69,17 @@
    ],
    "type": "markdown",
    "content-file": ".guides/content/getElementById-80f1.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "71009e65-cc7c-f0db-985b-9b5d59e08fe",
+   "title": "Use getElementById",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Use-getElementById-7100.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
@@ -87,6 +109,17 @@
    ],
    "type": "markdown",
    "content-file": ".guides/content/querySelector-d90d.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "8d4b4467-b521-ecff-c166-3f0734378af9",
+   "title": "Use querySelector",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Use-querySelector-8d4b.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
@@ -124,7 +157,7 @@
   },
   {
    "id": "11e580e6-4bc0-2ff6-f48b-22eb86417f89",
-   "title": "Creating elements",
+   "title": "Creating elements using HTML strings",
    "files": [
     {
      "path": "#tabs",
@@ -144,7 +177,18 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Creating-elements-11e5.md",
+   "content-file": ".guides/content/Creating-elements-using-HTML-strings-11e5.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "fe0ac02-fac0-41cd-9912-c3d6d410b4c0",
+   "title": "Creating elements using objects",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Creating-elements-using-objects-fe0a.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
@@ -377,7 +421,7 @@
   },
   {
    "id": "2287cd71-360d-1b-7c79-92053e644f24",
-   "title": "Creating elements",
+   "title": "Creating elements Using HTML strings",
    "files": [
     {
      "path": "#tabs",
@@ -397,7 +441,18 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Creating-elements-2287.md",
+   "content-file": ".guides/content/Creating-elements-Using-HTML-strings-2287.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "5b7d8e37-3ecd-3136-fa7b-5063e1736787",
+   "title": "Creating elements using objects",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Creating-elements-using-objects-5b7d.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
