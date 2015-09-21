@@ -151,7 +151,9 @@
    "content-file": ".guides/content/DOM-CSS-manipulation-in-JS-f905.md",
    "chapter": true,
    "reset": [
-    "dom-manipulation"
+    "dom-manipulation",
+    "ar-challenge-js",
+    "altering-challenge-js"
    ],
    "teacherOnly": false
   },
@@ -360,8 +362,26 @@
   {
    "id": "ae975ad6-bbfc-c745-b15d-dac8e2bbca8a",
    "title": "Altering challenge",
-   "files": [],
-   "path": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "altering-challenge-js/challenge.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: altering-challenge-js/challenge.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "altering-challenge-js"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/Altering-challenge-ae97.md",
    "chapter": false,
@@ -456,7 +476,11 @@
    "type": "markdown",
    "content-file": ".guides/content/jQuery-DOM-and-CSS-manipulations-325b.md",
    "chapter": true,
-   "reset": [],
+   "reset": [
+    "dom-manipulation",
+    "ar-challenge-jquery",
+    "altering-challenge-jquery"
+   ],
    "teacherOnly": false
   },
   {
@@ -527,8 +551,26 @@
   {
    "id": "f4118835-47eb-4e73-3b33-777f22dbfcfa",
    "title": "Adding/Removing challenge",
-   "files": [],
-   "path": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "ar-challenge-jquery/challenge.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: ar-challenge-jquery/challenge.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "ar-challenge-jquery"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/Adding-Removing-challenge-f411.md",
    "chapter": false,
@@ -646,8 +688,26 @@
   {
    "id": "6490da88-321a-df4b-8202-a64ad390759f",
    "title": "Altering challenge",
-   "files": [],
-   "path": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "altering-challenge-jquery/challenge.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: altering-challenge-jquery/challenge.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "altering-challenge-jquery"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/Altering-challenge-6490.md",
    "chapter": false,

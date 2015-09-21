@@ -1,0 +1,33 @@
+div {
+  font-family:Arial, sans-serif;
+  box-sizing:border-box;
+}
+#header {
+  background-color:grey;
+  font-size:200%;
+  text-align:center;
+}
+
+#navbar {
+  margin:20px 0;
+  float:left;
+  width:19%;
+  background-color:lightblue;
+}
+
+#main {
+  margin:20px 0;
+  float:right;
+  width:79%;
+  background-color:lightsalmon;
+}
+
+#footer {
+  background-color:grey;
+  font-size:70%;
+  text-align:center;
+}
+
+.clearfix {
+  clear:both;
+}
