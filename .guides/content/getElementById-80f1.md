@@ -8,7 +8,7 @@ document.getElementById( <search_id> )
 
 Where `<search_id>` is the id of the element you want to get.
 
-For example if your element has an id of `nav`, like the `ul` in `index.html` in the top left hand pane.
+For example if your element has an ID of `nav`, like the `ul` in `index.html` in the top left hand pane.
 
 ```
 var the_nav = document.getElementById("nav")

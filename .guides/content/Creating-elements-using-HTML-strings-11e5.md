@@ -22,17 +22,3 @@ my_div.innerHTML = my_div.innerHTML + p
 ```
 
 So whatever was already in the `#container` stays in there and we add our `p` at the end.
-
-If we want to replace everything inside our `#container` with just our `p`, we should use :
-
-```
-var my_p = "<p> I replace everything </p>"
-var my_div = document.getElementById("container")
-my_div.innerHTML = my_p
-```
-{Run this code}(node .guides/tests/run-this.js run11)
-
-Now, it's just an `=` sign so we assign to it and replace everything instead of concatenating.
-
-You can try running multiple time the first code above then running multiple time this one and see the difference of behaviour in the bottom left hand pane.
-

@@ -6,9 +6,9 @@ In the previous section we saw how to use `DOMContentLoaded` event to fix our pa
 
 In JS we cannot work directly with the HTML source because :
 
-1. For JS (or any programming language) and HTML document is just a text file, with a long series of characters.
+1. For JS (or any programming language) an HTML document is just a text file, with a long series of characters.
 
-1. Anyway if we modify the source HTML document, we would have to ask the browser to reload the source afterwards.
+1. If we modify the source HTML document, we would have to ask the browser to reload the source afterwards.
 
 We can and want to work directly with the browser's internal representation of the source HTML document so that the changes we make are instantly applied.
 
