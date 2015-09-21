@@ -20,6 +20,22 @@
   {
    "id": "d967caca-9a9b-864-1d81-f5bd4d532f45",
    "title": "Introduction to the DOM",
+   "files": [],
+   "layout": "1-panel",
+   "path": [
+    "introduction-dom"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Introduction-to-the-DOM-d967.md",
+   "chapter": true,
+   "reset": [
+    "introduction-dom"
+   ],
+   "teacherOnly": false
+  },
+  {
+   "id": "6196197d-3c8f-2675-94ef-6346f50df4e5",
+   "title": "A DOM example",
    "files": [
     {
      "path": "#tabs",
@@ -41,19 +57,6 @@
     "introduction-dom"
    ],
    "type": "markdown",
-   "content-file": ".guides/content/Introduction-to-the-DOM-d967.md",
-   "chapter": true,
-   "reset": [
-    "introduction-dom"
-   ],
-   "teacherOnly": false
-  },
-  {
-   "id": "6196197d-3c8f-2675-94ef-6346f50df4e5",
-   "title": "A DOM example",
-   "files": [],
-   "path": [],
-   "type": "markdown",
    "content-file": ".guides/content/A-DOM-example-6196.md",
    "chapter": false,
    "reset": [],
@@ -62,8 +65,13 @@
   {
    "id": "80f164b7-741b-614f-89e3-6c4f49e1627a",
    "title": "getElementById",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [
     "introduction-dom"
    ],
@@ -76,7 +84,23 @@
   {
    "id": "71009e65-cc7c-f0db-985b-9b5d59e08fe",
    "title": "Use getElementById",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "introduction-dom/index.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: introduction-dom/index.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Use-getElementById-7100.md",
@@ -87,6 +111,25 @@
   {
    "id": "d90d1028-1ce7-99b4-4b4b-683b3013238",
    "title": "querySelector",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [
+    "introduction-dom"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/querySelector-d90d.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "8d4b4467-b521-ecff-c166-3f0734378af9",
+   "title": "Use querySelector",
    "files": [
     {
      "path": "#tabs",
@@ -103,21 +146,10 @@
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "3-cell",
    "path": [
     "introduction-dom"
    ],
-   "type": "markdown",
-   "content-file": ".guides/content/querySelector-d90d.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false
-  },
-  {
-   "id": "8d4b4467-b521-ecff-c166-3f0734378af9",
-   "title": "Use querySelector",
-   "files": [],
-   "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Use-querySelector-8d4b.md",
    "chapter": false,
@@ -131,19 +163,9 @@
     {
      "path": "#tabs",
      "action": "close"
-    },
-    {
-     "path": ".guides/dom-manip/index.html",
-     "panel": 0,
-     "action": "open"
-    },
-    {
-     "path": "#preview: .guides/dom-manip/index.html",
-     "panel": 1,
-     "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "1-panel",
    "path": [
     "dom-manipulation"
    ],
@@ -176,7 +198,7 @@
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Creating-elements-using-HTML-strings-11e5.md",
