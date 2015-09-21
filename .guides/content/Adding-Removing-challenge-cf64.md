@@ -6,15 +6,6 @@ Solution :
 
 ```
 <!DOCTYPE html>
-<html>
-<head>
-  <title> Dom manip </title>
-  <link rel="stylesheet" href="/.guides/dom-manip/public/css/style.css">
-</head>
-<body>
-<div id="container">
-
-</div>
 <script>
   var container = document.getElementById("container");
 
@@ -27,8 +18,6 @@ Solution :
     container.removeChild(p);
   }
 </script>
-</body>
-</html>
 ```
 
 |||

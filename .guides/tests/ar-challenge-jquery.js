@@ -1,10 +1,74 @@
-/**
-* Created with javascript-dom-jquery.
-* User: mathvdh
-* Date: 2015-09-21
-* Time: 07:57 AM
-* To change this template use Tools | Templates.
-*/
-define(function() {
-return {};
+var fs = require('fs');
+var phantom = require('phantom');
+var cssutils = require('codio-css-utils');
+
+var box_domain = process.env.CODIO_BOX_DOMAIN;
+var fullurl = "http://"+ box_domain + "/ar-challenge-jquery/challenge.html";
+var jqueryurl = "http://"+ box_domain + "/.guides/dom-manip/public/js/jquery.js";
+var errors = [];
+
+//console.log(fullurl);
+
+
+phantom.create(function (ph) {
+  ph.createPage(function (page) {
+    page.open(fullurl, function (status) {
+      //console.log("opened ? ", status);
+      page.includeJs(jqueryurl, function(){
+        page.evaluate(function () { 
+        
+          var errors =  [];
+
+          var $ps =$("p");
+          
+          if ($ps.length != 7) {
+            errors.push("There is not the correct number of p tags in the container")
+          }
+          
+          if ($ps.first().text().trim() != "4") {
+            errors.push("The first p should have the text 4")
+          }
+          
+          if ($ps.last().text().trim() != "10") {
+            errors.push("The last p should have the text 10")
+          }
+
+
+          return errors;
+
+
+        }, function (retErrors) {
+          
+          var allerrors = retErrors.concat(errors)
+
+          if (!allerrors) {
+            process.stdout.write("There was a problem running the test");
+            ph.exit();
+            process.exit(1);
+          } else {
+            if(allerrors.length <= 0 ) {
+              process.stdout.write('Well done!!!')
+              ph.exit();
+              process.exit(0);
+            }
+            else {
+              process.stdout.write(allerrors.join("\n"))
+              ph.exit();
+              process.exit(1);
+            }
+          }
+
+        });
+        
+      });
+    });
+  });
 });
+
+
+
+
+
+
+
+  
