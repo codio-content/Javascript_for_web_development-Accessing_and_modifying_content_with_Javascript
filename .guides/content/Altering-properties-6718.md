@@ -1,3 +1,4 @@
+<p style="text-align:center;">This code from section 3.7: </p>
 
 ```
 var x = document.getElementById("container");

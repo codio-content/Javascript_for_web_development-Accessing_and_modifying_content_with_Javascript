@@ -1,4 +1,4 @@
-There are basically two options for using jQuery. Either you download the jQuery script, put it on your server and load it from there. Or you can use the hosted version that they offer directly.
+There are basically two options for using jQuery. Either you download the jQuery script, put it on your server and load it from there. Or you can use the hosted version that they offer directly. In this section and the next one, we will explain you how to do it. You are not asked to do it yourself in this unit and it will be done for you when it's necessary.
 
 The option to download it on your server is safer, as you never know what jQuery will become and if they will continue offering a hosted version. But the second option should be quicker as they offer a CDN hosted version. A CDN means Content Distribution Network, which implies that they have servers everywhere in the world so a user downloading the file will always get a very close and fast server.
 

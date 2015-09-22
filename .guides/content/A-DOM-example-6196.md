@@ -2,9 +2,9 @@ Let's try to visualize what the DOM might look like, Let's take this HTML as an 
 
 ```
 <ul id="nav" class="big">
-  <li> Un </li>
-  <li class="selected"> Deux <span>Yes</span> </li>
-  <li> Trois </li>
+  <li> One </li>
+  <li class="selected"> two <span>(selected)</span> </li>
+  <li> Three </li>
 </ul>
 ```
 

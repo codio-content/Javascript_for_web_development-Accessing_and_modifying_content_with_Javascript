@@ -1,4 +1,4 @@
-## Adding CSS classes
+<p style="text-align:center;">This code from section 3.9: </p>
 
 ```
 var x = document.getElementById("container");

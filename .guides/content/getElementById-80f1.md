@@ -6,9 +6,9 @@ If the element you are trying to reach has an ID then you can quickly get it by 
 document.getElementById( <search_id> )
 ````
 
-Where `<search_id>` is the id of the element you want to get.
+where `<search_id>` is the ID of the element you want to get.
 
-For example if your element has an ID of `nav`, like the `ul` in `index.html` in the top left hand pane.
+For example if your element has an ID of `nav`, like the `ul` in `index.html` in the top left hand pane, you can get it using JS and assign it to a variable using the code below:
 
 ```
 var the_nav = document.getElementById("nav")

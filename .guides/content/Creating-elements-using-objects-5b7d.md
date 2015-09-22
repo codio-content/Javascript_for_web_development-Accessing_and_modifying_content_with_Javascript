@@ -1,3 +1,5 @@
+<p style="text-align:center;">This code from section 3.3: </p>
+
 ```
 var p = document.createElement("p");
 p.appendChild(document.createTextNode("Hello");

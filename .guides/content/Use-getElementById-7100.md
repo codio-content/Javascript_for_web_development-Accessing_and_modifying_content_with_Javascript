@@ -13,9 +13,9 @@ Solution :
 <body>
   
 <ul id="nav" class="big">
-  <li> Un </li>
-  <li class="selected"> Deux <span>Yes</span> </li>
-  <li> Trois </li>
+  <li> One </li>
+  <li class="selected"> Two <span>(selected)</span> </li>
+  <li> Three </li>
 </ul>
   
 <script>

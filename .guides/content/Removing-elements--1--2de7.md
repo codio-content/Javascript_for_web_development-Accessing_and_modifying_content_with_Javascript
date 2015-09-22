@@ -1,4 +1,4 @@
-In order to remove element, you have to find their parent container and empty its `innerHTML` property or ask the parent to remove the element as child.
+In order to remove elements, you have to find their parent container and empty its `innerHTML` property or ask the parent to remove the element as child.
 
 ### Emptying the innerHTML
 

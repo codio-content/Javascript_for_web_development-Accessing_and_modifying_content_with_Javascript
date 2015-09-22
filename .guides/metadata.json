@@ -40,19 +40,9 @@
     {
      "path": "#tabs",
      "action": "close"
-    },
-    {
-     "path": "introduction-dom/index.html",
-     "panel": 0,
-     "action": "open"
-    },
-    {
-     "path": "#preview: introduction-dom/index.html",
-     "panel": 1,
-     "action": "open"
     }
    ],
-   "layout": "3-cell",
+   "layout": "1-panel",
    "path": [
     "introduction-dom"
    ],
@@ -292,12 +282,12 @@
      "action": "close"
     },
     {
-     "path": ".guides/dom-manip/index-removing.html",
+     "path": ".guides/dom-manip/index-removing2.html",
      "panel": 0,
      "action": "open"
     },
     {
-     "path": "#preview: .guides/dom-manip/index-removing.html",
+     "path": "#preview: .guides/dom-manip/index-removing2.html",
      "panel": 1,
      "action": "open"
     }
@@ -605,6 +595,17 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Creating-elements-Using-HTML-strings-2287.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "58055c8c-245f-b448-30f1-1f271a39e310",
+   "title": "Replacing everything inside an element",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Replacing-everything-inside-an-element-5805.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false

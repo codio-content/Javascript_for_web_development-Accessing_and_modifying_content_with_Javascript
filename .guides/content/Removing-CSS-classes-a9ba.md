@@ -1,3 +1,4 @@
+<p style="text-align:center;">This code from section 3.10: </p>
 
 ```
 var x = document.getElementById("container")
@@ -16,4 +17,7 @@ if ($('#container').hasClass('cool')) {
 ```
 {Run this code}(node .guides/tests/run-this.js run17)
 
-Here we first use the `hasClass()` function which returns `true` if the element has the given class and false otherwise. Then we use `removeClass()` to remove it. The first call is optional has we could just use `removeClass` wether the element has the class or not, as jQuery will work in both ways.
+The first call to `hasClass()` is optional has we could just use `removeClass` whether the element has the class or not, as jQuery will work in both ways.
+
+The `hasClass()` function returns `true` if the element has the given class and false otherwise. Then we use `removeClass()` to remove it. 
+

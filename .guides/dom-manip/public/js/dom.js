@@ -62,6 +62,11 @@ function runCommand(command_text) {
       break
       
     case "run9":
+      $("#container").append("<p> Hello </p>")
+      
+      break
+      
+    case "run91":
       $("#container").html("<p> Hello </p>")
       
       break
