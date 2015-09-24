@@ -546,19 +546,9 @@
     {
      "path": "#tabs",
      "action": "close"
-    },
-    {
-     "path": ".guides/dom-manip/index.html",
-     "panel": 0,
-     "action": "open"
-    },
-    {
-     "path": "#preview: .guides/dom-manip/index.html",
-     "panel": 1,
-     "action": "open"
     }
    ],
-   "layout": "3-cell",
+   "layout": "1-panel",
    "path": [
     "dom-manipulation"
    ],
@@ -591,7 +581,7 @@
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Creating-elements-Using-HTML-strings-2287.md",
@@ -657,12 +647,12 @@
      "action": "close"
     },
     {
-     "path": ".guides/dom-manip/index-removing.html",
+     "path": ".guides/dom-manip/index-removing2.html",
      "panel": 0,
      "action": "open"
     },
     {
-     "path": "#preview: .guides/dom-manip/index-removing.html",
+     "path": "#preview: .guides/dom-manip/index-removing2.html",
      "panel": 1,
      "action": "open"
     }
