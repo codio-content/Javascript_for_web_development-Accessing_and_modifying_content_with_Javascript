@@ -34,11 +34,16 @@ $(document).ready(function() {
       .css("top",randomY()+"px")
       .addClass('ready')
   })
+  $('body').on('click', '#relaunch', function() {
+    document.location.reload();
+  })
   
   $('body').on('click', '#launch', function() {
     if (physics_started) {
       return;
     } else {
+      $("#add_square,#add_circle").addClass("disabled")
+      $("#launch").addClass("disabled").text("Physics started...")
       //$("h1, #intro").box2d({'y-velocity':10, 'density':2});
       $(".square").box2d({'y-velocity':10,'density':2})
       $(".circle").box2d({'y-velocity':10,'shape':'circle','density':0.1, 'restitution':0.8, 'friction':0.2})
