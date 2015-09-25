@@ -467,6 +467,35 @@
    "teacherOnly": false
   },
   {
+   "id": "b632f643-54e9-75de-70c0-12ededb494f",
+   "title": "Final challenge",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "final-challenge/challenge.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: final-challenge/challenge.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "final-challenge"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Final-challenge-b632.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
    "id": "3d5f8d9a-50e-26f9-d662-f4d46612b17",
    "title": "That's all folks",
    "files": [
