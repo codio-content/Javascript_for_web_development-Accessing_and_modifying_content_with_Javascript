@@ -1,0 +1,57 @@
+{Check It!|assessment}(test-2656689415)
+
+|||guidance
+
+Solution :
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Final challenge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="controls">
+    <div id="add_square">
+      Add box
+    </div>
+    <div id="add_circle">
+      Add ball
+    </div>
+    <div id="launch">
+      Start physics!
+    </div>
+    <div id="relaunch">
+      Reload
+    </div>
+    <div class="clearfix"></div>
+  </div>
+  <div id="container">
+    <h1>Let's have some physics fun</h1>
+    <div id="intro">
+      Please create the shapes as described in the challenge text on the left.
+    </div>
+  </div>
+
+  <script src="/.guides/dom-manip/public/js/jquery.js"></script>
+  <script src="jquery.box2d.min.js"></script>
+  <script src="main.js"></script>
+  <script> 
+    function randomColor() {
+      return 'rgb('+(Math.floor(Math.random()*256))+','+(Math.floor(Math.random()*256))+','+(Math.floor(Math.random()*256))+')';
+    }    
+    
+    function addSquare() {
+      document.getElementById("container").innerHTML+='<div class="square" style="background-color:'+randomColor()+'"></div>'
+    }
+    
+    function addCircle(){
+      document.getElementById("container").innerHTML+='<div class="circle" style="background-color:'+randomColor()+'"></div>'
+    }
+  </script>
+</body>
+</html>
+```
+
+|||
