@@ -30,7 +30,7 @@ Solution :
   <div id="container">
     <h1>Let's have some physics fun</h1>
     <div id="intro">
-      Please create the shapes as described in the challenge text on the left.
+      Please create the shapes as described in the challenge text on the right.
     </div>
   </div>
 
