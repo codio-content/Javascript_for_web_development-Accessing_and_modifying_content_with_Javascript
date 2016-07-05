@@ -7,7 +7,7 @@ var my_p = "<p> Hello </p>"
 var my_div = document.getElementById("container")
 my_div.innerHTML += my_p
 ```
-{Run this code}(node .guides/tests/run-this.js run1)
+{Run this code}(bash .guides/tests/exec.sh .guides/tests/run-this.js run1)
 
 When we say we "append" it, we really mean it, you can see that we used the operator `+=` on the `innerHTML` property.
 

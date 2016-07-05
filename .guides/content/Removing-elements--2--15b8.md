@@ -6,7 +6,7 @@ The code below will not only remove all these paragraphs, but also the `div#cont
 var c = document.getElementById("container")
 c.parentNode.removeChild(c)
 ```
-{Run this code}(node .guides/tests/run-this.js run4)
+{Run this code}(bash .guides/tests/exec.sh .guides/tests/run-this.js run4)
 
 
 |||info

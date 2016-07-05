@@ -15,6 +15,6 @@ var x = document.getElementById("container")
 x.classList.add("cool")
 ```
 
-{Run this code}(node .guides/tests/run-this.js run7)
+{Run this code}(bash .guides/tests/exec.sh .guides/tests/run-this.js run7)
 
 The `classList` property contains (as its name implies) the list of all the classes of the element. Here we use the `add` function on it to add our `cool` class.
