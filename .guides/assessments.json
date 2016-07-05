@@ -1,0 +1,130 @@
+[
+ {
+  "type": "test",
+  "taskId": "test-1609688105",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Adding/Removing challenge (JS)",
+   "instructions": "We have prepared the file `challenge.html` in the top left hand pane along with its preview underneath.\n\nIf you look at the code more closely,  you will find that we assigned at the beginning the DOM element with ID = `container` to a variable called `container` (line 18)\n\nThen we have a `for` loop on line 20. This loop will iterate the variable `i` from 1 to 10. We ask you to write inside the loop some code that will append to the `innerHTML` property of `container` a `p` tag which will have the text `i` (the value of the variable `i` not the text \"i\").\n\nIn the following loop on line 26, which iterates the variable `j` from 1 to 3, we ask you to :\n1. Assign to a variable called `p` the result of `document.querySelector(\"p\")` which returns the first `p` it will find in the page (meaning one of the `p` that we just added above).\n1. Then ask the `container` to remove `p` as its child as explained in the previous section.\n\nCan you guess what will be the result in the preview ?\nRefresh the preview in the bottom left hand pane to see it!\n\nGood luck\n",
+   "command": "bash .guides/tests/exec.sh .guides/tests/ar-challenge-js.js",
+   "points": 5
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2651991122",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Altering challenge (jQuery)",
+   "instructions": "In the top left hand pane, you will find a file called `challenge.html`, along with its preview underneath.\n\nYou are asked to write some jQuery code starting at line 34 in order to :\n\n1. Add a class called `clearfix` to the `div` with an ID of `footer`.\n1. Using the `css()` function, change the `background-color` of the div with ID `main` to `lightblue`.\n1. Finally , using the `css()` function again, add `margin:20px` to the `div` with ID `main` and the div with ID `navbar`.\n\nIf you refresh the bottom preview, when you are done, it should look something like this :\n\n![](.guides/img/altering-challenge-js.png)\n\nGood luck!",
+   "command": "bash .guides/tests/exec.sh .guides/tests/altering-challenge-jquery.js",
+   "points": 5
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2656689415",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "points": 5,
+   "command": "bash .guides/tests/exec.sh .guides/tests/final-challenge.js",
+   "instructions": "Have a look at the file `challenge.html` on the top left hand with its preview underneath.\n\nWe have prepared a little physics playground. Currently this page is not working but the final result will look something like this:\n\n![](.guides/img/screencast.gif)\n\nIt's almost done but we need your help for the final touch . We need you to implement the functions `addSquare` on line 50  and `addCircle` on line 54.\n\nThe `addSquare` function should use JS DOM manipulation to add a `div` with class `square` to the `div` with ID `container`.\n\nThe `addCircle` function should use JS DOM manipulation to add a `div` with class `circle` to the `div` with ID `container`.\n\nBoth these function should use the `innerHTML` property of the `div` with ID `container` to create their elements and use the function `randomColor` (on line 46) to set a random `background-color` to the square and circle element it just created, using something like: `style=\"background-color:'+randomColor()+'\"`\n\nWhen you are done, refresh the preview at the bottom left hand and try clicking many times on the buttons \"Add box\" and \"Add ball\" then you can click on \"Start physics!\" and appreciate the result!\n\nGood luck!\n",
+   "name": "Final Challenge"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-332307837",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Altering challenge (JS)",
+   "instructions": "In the top left hand pane, you will find a file called `challenge.html`, along with its preview underneath.\n\nYou are asked to write some code inside the `script` starting at line 33 in order to :\n\n1. Add a class called `clearfix` to the `div` with an ID of `footer`.\n1. Using the `style` property of a DOM element, change the `background-color` of the div with ID `main` to `lightblue`\n1. Finally , using the `style` property again, add `margin:20px` to the `div` with ID `main` and the div with ID `navbar`\n\nDon't forget to \"camelCase\" the CSS properties if you want to change them using the `style` attribute.\n\nIf you refresh the bottom preview, when you are done, it should look something like this :\n\n![](.guides/img/altering-challenge-js.png)\n\nGood luck!",
+   "command": "bash .guides/tests/exec.sh .guides/tests/altering-challenge-js.js",
+   "points": 5
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3648361926",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Adding/Removing challenge (jQuery)",
+   "instructions": "We have prepared the file `challenge.html` in the top left hand pane along with its preview underneath.\n\nWe have a first `for` loop at line 16. This loop will iterate the variable `i` from 1 to 10. We ask you to write inside the loop some jQuery code that will use the `.append()` function on the `#container` to  add `p` tag which will have the text `i` (the value of the variable `i` not the text \"i\").\n\nIn the following loop on line 22, which iterates the variable `j` from 1 to 3, we ask you to get the first `p` that we added above using `$(\"p\").first()` then apply the `detach()` function on it to remove it from the DOM.\n\nCan you guess what will be the result in the preview ?\nRefresh the preview in the bottom left hand pane to see it!\n\nGood luck\n",
+   "command": "bash .guides/tests/exec.sh .guides/tests/ar-challenge-jquery.js",
+   "points": 5
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-8263195",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Modify the first li using querySelector",
+   "instructions": "The file `queryselector.html` in the top left hand pane has been prepared like in the previous challenge.\n\nYou are asked to get the first `li` by using the function `document.querySelector` as shown above in a variable named `my_li` \n\nThen you can then alter the element using `my_li.style.color = \"red\";`\n\nDon't forget to verify that it works using the preview underneath the code pane.\n\nGood luck!\n",
+   "command": "bash .guides/tests/exec.sh .guides/tests/alter-first-li.js",
+   "points": 3
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-861772564",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Alter the nav using JS",
+   "instructions": "In the file `index.html` in the top left hand pane, we have prepared the code for you and set the `DOMContentLoaded` handler, you can type you code where it's written `//put your code here`\n\nYou are asked to add 2 instructions in order to :\n1. Get the element with id = \"nav\" and save it in a variable called `the_nav`\n1. Modify this element using the code : `the_nav.style.color= \"red\";`\n\nThen refresh the preview at the bottom to see if it works.\n",
+   "command": "bash .guides/tests/exec.sh .guides/tests/alter-nav.js",
+   "points": 5
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-964909706",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Final challenge",
+   "instructions": "In the top left hand pane you can see the code of our `challenge.html` page. We have prepared things a bit for you. The structure is created, we have three `div`s : `#header`, `#container`and `#footer`. We have created all the necessary CSS styles, we have loaded jQuery  for you already and a script called `news.js` which gets the latest 10 news from the [hackernews](https://news.ycombinator.com/) website.\n\nBasically we will be redoing the hackernews website in a more simple way. If you look at the JS code on line 23, you will see that we already wait for the page to be loaded using `$(document).ready` from jQuery.\n\nThen we call our `getNews` function which will connect to hackernews and get us the latest 10 news items. When it's finished it will trigger our callback function with the news as a parameter called `news`. Then we have a `for` loop that goes through each of the news items and assigns them to a variable called `news_item` that you will use.\n\nWe ask you to modify `challenge.html` :\n\n1. Before the `getNews` call (line 25):\n     Set the text of `span.username` to your name using jQuery's `.text()` function.\n \n1. Before the loop (line 30):\n     Empty the `div#container` using jQuery's `.empty()` function\n\n1. Inside the loop (line 37-38):\n    1. Create `<div>` with class = `news` and id = `news_item.id`. Inside that div :\n        1. Create a `<div>` with class `author` and text `news_item.author`\n        1. Create a `<div>` with class `title` and text `news_item.text`\n        1. Create a `<a>` with href AND text `news_item.link`\n    1. Append that `div`you just created to the `#container`.\n\nHere is a full example of a news div :\n\n```\n<div class=\"news\" id=\"10219409\">\n  <div class=\"author\"> known </div>\n  <div class=\"title\"> NASA Struggles Over Deep-Space Plutonium Power </div>\n  <a href=\"http://www.scientificamerican.com/article/within-nasa-a-plutonium-power-struggle/\"> http://www.scientificamerican.com/article/within-nasa-a-plutonium-power-struggle/ </a>\n</div>\n```\nYou can use any method you want to create the elements for the news item.\nWhen we write `news_item.title` we want you to assign the value of the variable `news_item.title` at that place, not just the string \"news_item.title\".\n\nGood luck!",
+   "command": "bash .guides/tests/exec.sh .guides/tests/final-challenge.js",
+   "points": 10
+  }
+ }
+]

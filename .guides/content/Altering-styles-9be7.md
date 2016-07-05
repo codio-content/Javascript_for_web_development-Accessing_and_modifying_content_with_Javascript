@@ -22,4 +22,4 @@ x.style.backgroundColor = "gray"
 x.style.fontWeight = "bold"
 x.style.border = "2px solid orange"
 ```
-{Run this code}(node .guides/tests/run-this.js run6)
+{Run this code}(bash .guides/tests/exec.sh .guides/tests/run-this.js run6)

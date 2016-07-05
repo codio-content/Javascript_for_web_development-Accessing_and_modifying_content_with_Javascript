@@ -8,4 +8,4 @@ In the bottom left hand preview, you will see that we have some paragraphs insid
 document.getElementById("container").innerHTML = null
 ```
 
-{Run this code}(node .guides/tests/run-this.js run3)
+{Run this code}(bash .guides/tests/exec.sh .guides/tests/run-this.js run3)
