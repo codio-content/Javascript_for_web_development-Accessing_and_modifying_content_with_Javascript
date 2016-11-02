@@ -1,8 +1,7 @@
 var fs = require('fs');
 var phantom = require('phantom');
 
-var box_domain = process.env.CODIO_BOX_DOMAIN;
-var fullurl = "http://"+ box_domain + "/introduction-dom/index.html";
+var fullurl = "file:///home/codio/workspace/introduction-dom/index.html"; 
 var errors = [];
 
 //console.log(fullurl);
