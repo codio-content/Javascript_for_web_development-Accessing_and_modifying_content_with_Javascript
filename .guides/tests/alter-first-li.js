@@ -1,7 +1,7 @@
 var fs = require('fs');
 var phantom = require('phantom');
 
-var fullurl = "file:///home/codio/workspace/introduction-dom/index.html"; 
+var fullurl = "file:///home/codio/workspace/introduction-dom/queryselector.html";
 var errors = [];
 
 //console.log(fullurl);

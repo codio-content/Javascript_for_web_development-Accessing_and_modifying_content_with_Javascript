@@ -2,7 +2,7 @@ var fs = require('fs');
 var phantom = require('phantom');
 var cssutils = require('codio-css-utils');
 
-var fullurl = "file:///home/codio/workspace/introduction-dom/index.html";    
+var fullurl = "file:///home/codio/workspace/final-challenge/challenge.html";
 var jqueryurl = "file:///home/codio/workspace/.guides/dom-manip/public/js/jquery.js";
 var errors = [];
 
