@@ -1,0 +1,138 @@
+{
+ "name": "Javascript_for_web_development-Accessing_and_modifying_content_with_Javascript",
+ "children": [
+  {
+   "title": "Introduction",
+   "id": "6c05fb9e-6f9b-9bd3-c55e-ad42b4a8bfda",
+   "pageId": "6c05fb9e-6f9b-9bd3-c55e-ad42b4a8bfda",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "Introduction to the DOM",
+   "id": "d967caca-9a9b-864-1d81-f5bd4d532f45",
+   "pageId": "d967caca-9a9b-864-1d81-f5bd4d532f45",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "A DOM example",
+     "id": "6196197d-3c8f-2675-94ef-6346f50df4e5",
+     "pageId": "6196197d-3c8f-2675-94ef-6346f50df4e5",
+     "type": "page"
+    },
+    {
+     "title": "getElementById",
+     "id": "80f164b7-741b-614f-89e3-6c4f49e1627a",
+     "pageId": "80f164b7-741b-614f-89e3-6c4f49e1627a",
+     "type": "page"
+    },
+    {
+     "title": "Use getElementById",
+     "id": "71009e65-cc7c-f0db-985b-9b5d59e08fe",
+     "pageId": "71009e65-cc7c-f0db-985b-9b5d59e08fe",
+     "type": "page"
+    },
+    {
+     "title": "querySelector",
+     "id": "d90d1028-1ce7-99b4-4b4b-683b3013238",
+     "pageId": "d90d1028-1ce7-99b4-4b4b-683b3013238",
+     "type": "page"
+    },
+    {
+     "title": "Use querySelector",
+     "id": "8d4b4467-b521-ecff-c166-3f0734378af9",
+     "pageId": "8d4b4467-b521-ecff-c166-3f0734378af9",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "DOM/CSS manipulation in JS",
+   "id": "f90588c6-2d96-c015-5390-7cb8fe0dd9e5",
+   "pageId": "f90588c6-2d96-c015-5390-7cb8fe0dd9e5",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Creating elements using HTML strings",
+     "id": "11e580e6-4bc0-2ff6-f48b-22eb86417f89",
+     "pageId": "11e580e6-4bc0-2ff6-f48b-22eb86417f89",
+     "type": "page"
+    },
+    {
+     "title": "Replacing everything inside an element",
+     "id": "a741db5c-978b-5c13-ebdb-536e2e2795b6",
+     "pageId": "a741db5c-978b-5c13-ebdb-536e2e2795b6",
+     "type": "page"
+    },
+    {
+     "title": "Creating elements using objects",
+     "id": "fe0ac02-fac0-41cd-9912-c3d6d410b4c0",
+     "pageId": "fe0ac02-fac0-41cd-9912-c3d6d410b4c0",
+     "type": "page"
+    },
+    {
+     "title": "Removing elements (1)",
+     "id": "2de7fd07-afa2-938-7662-aca56d77c2a1",
+     "pageId": "2de7fd07-afa2-938-7662-aca56d77c2a1",
+     "type": "page"
+    },
+    {
+     "title": "Removing elements (2)",
+     "id": "15b8e1fc-841-901a-971-1c331283ce0c",
+     "pageId": "15b8e1fc-841-901a-971-1c331283ce0c",
+     "type": "page"
+    },
+    {
+     "title": "Adding/Removing challenge",
+     "id": "cf648d72-2c0a-cf36-d951-bfcf40bb271f",
+     "pageId": "cf648d72-2c0a-cf36-d951-bfcf40bb271f",
+     "type": "page"
+    },
+    {
+     "title": "Altering properties",
+     "id": "ade3ede5-63c-573b-9f11-174d3cd981a7",
+     "pageId": "ade3ede5-63c-573b-9f11-174d3cd981a7",
+     "type": "page"
+    },
+    {
+     "title": "Altering styles",
+     "id": "9be742ef-4796-d8de-f715-24afe12cd2ff",
+     "pageId": "9be742ef-4796-d8de-f715-24afe12cd2ff",
+     "type": "page"
+    },
+    {
+     "title": "Adding CSS classes",
+     "id": "7974f522-c205-ff96-bd4-5369905f19c4",
+     "pageId": "7974f522-c205-ff96-bd4-5369905f19c4",
+     "type": "page"
+    },
+    {
+     "title": "Removing CSS classes from elements",
+     "id": "2697fc48-218d-3dfe-205f-f3e0132727da",
+     "pageId": "2697fc48-218d-3dfe-205f-f3e0132727da",
+     "type": "page"
+    },
+    {
+     "title": "Altering challenge",
+     "id": "ae975ad6-bbfc-c745-b15d-dac8e2bbca8a",
+     "pageId": "ae975ad6-bbfc-c745-b15d-dac8e2bbca8a",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Final challenge",
+   "id": "b632f643-54e9-75de-70c0-12ededb494f",
+   "pageId": "b632f643-54e9-75de-70c0-12ededb494f",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "That's all folks",
+   "id": "3d5f8d9a-50e-26f9-d662-f4d46612b17",
+   "pageId": "3d5f8d9a-50e-26f9-d662-f4d46612b17",
+   "type": "chapter",
+   "children": []
+  }
+ ]
+}

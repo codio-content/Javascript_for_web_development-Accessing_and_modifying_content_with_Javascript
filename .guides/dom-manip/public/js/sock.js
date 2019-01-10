@@ -1,6 +1,8 @@
 $(document).ready(function(){
-  
+
   var sockethost = 'https://' + window.location.hostname + ":9500";
+  var hostname = window.location.hostname.split('.', 1)[0];
+  var sockethost = 'https://' + window.location.hostname.replace(hostname, hostname + "-9500");
   var socketscript = sockethost + "/socket.io/socket.io.js";
 
   $.getScript( socketscript , function( data, textStatus, jqxhr ) {
@@ -14,5 +16,5 @@ $(document).ready(function(){
     });
 
   });
-  
+
 })
