@@ -34,7 +34,7 @@ Solution :
     </div>
   </div>
 
-  <script src="/.guides/dom-manip/public/js/jquery.js"></script>
+  <script src="../.guides/dom-manip/public/js/jquery.js"></script>
   <script src="jquery.box2d.min.js"></script>
   <script src="main.js"></script>
   <script> 
